@@ -44,7 +44,7 @@ public class Game
 	{
 		System.out.println( "You are playing Battleship in which you need to sink three DotComs.");
 		System.out.println( "It's a 7x7 grid where the size of each DotCom is 3 cells.");
-		System.out.println( "Take a guess like B2 or F7 to start.  Go ahead...I dare you.");
+		System.out.println( "Take a guess like B2 or F7 to start.");
 		
 		while ( numberOfDotComs > 0 && player.getNumberOfGuesses() < maxGuesses )
 		{
